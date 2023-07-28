@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0, 0.75),rgba(0,0,0, 0.75)),url("C:/Users/neele/Downloads/gaming website code/assests/com-clans-bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    padding: 5px 1%;
+}
+.container{
+    font-size: 30px;
+    color: #fff;
+    margin-left: 35%;
+}
+.container h{
+    color: #fff;
+    font-size: 50px;
+    margin-left: -50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container p{
+    margin-top: 10px;
+    color:  #fff;
+	font-size: 20px;
+    margin-left: -450px;
+}
+.nav-idea{
+	float: none;
+	list-style: square;
+	margin-top: 1px;
+	padding-right: 40px;
+}
+.nav-idea li{
+	display: list-item;
+
+}
+
+.nav-idea li a{
+	color:  white;
+	text-decoration: unset;
+	padding: 1px 0px;
+	font-size: 15px;
+    display: inline-block;
+}
+
+.nav-idea li a::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: red;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+.nav-idea li a:hover::after{
+	width: 100%;
+
+}
+.btn{
+    display: inline-block;
+    background: white;
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 6px;
+}
